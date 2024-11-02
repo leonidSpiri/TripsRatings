@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Наши поездки в 2024</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Наши поездки в 2024</h1>
+<p>Милая, пожалуйста, пройди следующий опросик с целью мониторинга и повышения качества обслуживания в дальнейшем.</p>
+
+<form id="surveyForm">
+  <!-- Шаблон секции для каждой поездки -->
+  <div class="section">
+    <h2>1. Зимняя Москва (январь 2024)</h2>
+    <img src="img/img1.jpg" alt="Зимняя Москва">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="moscow_q1" value="1">1</label>
+      <label><input type="radio" name="moscow_q1" value="2">2</label>
+      <label><input type="radio" name="moscow_q1" value="3">3</label>
+      <label><input type="radio" name="moscow_q1" value="4">4</label>
+      <label><input type="radio" name="moscow_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="moscow_q2" value="1">1</label>
+      <label><input type="radio" name="moscow_q2" value="2">2</label>
+      <label><input type="radio" name="moscow_q2" value="3">3</label>
+      <label><input type="radio" name="moscow_q2" value="4">4</label>
+      <label><input type="radio" name="moscow_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="moscow_q3" value="1">1</label>
+      <label><input type="radio" name="moscow_q3" value="2">2</label>
+      <label><input type="radio" name="moscow_q3" value="3">3</label>
+      <label><input type="radio" name="moscow_q3" value="4">4</label>
+      <label><input type="radio" name="moscow_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="moscow_q4" value="1">1</label>
+      <label><input type="radio" name="moscow_q4" value="2">2</label>
+      <label><input type="radio" name="moscow_q4" value="3">3</label>
+      <label><input type="radio" name="moscow_q4" value="4">4</label>
+      <label><input type="radio" name="moscow_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="moscow_q5" value="1">1</label>
+      <label><input type="radio" name="moscow_q5" value="2">2</label>
+      <label><input type="radio" name="moscow_q5" value="3">3</label>
+      <label><input type="radio" name="moscow_q5" value="4">4</label>
+      <label><input type="radio" name="moscow_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="moscow_q6" value="1">1</label>
+      <label><input type="radio" name="moscow_q6" value="2">2</label>
+      <label><input type="radio" name="moscow_q6" value="3">3</label>
+      <label><input type="radio" name="moscow_q6" value="4">4</label>
+      <label><input type="radio" name="moscow_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="moscow_q7"></textarea>
+  </div>
+
+
+
+  <div class="section">
+    <h2>2. Весенняя Кострома (март 2024)</h2>
+    <img src="img/img2.jpg" alt="Весенняя Кострома">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="kostroma_q1" value="1">1</label>
+      <label><input type="radio" name="kostroma_q1" value="2">2</label>
+      <label><input type="radio" name="kostroma_q1" value="3">3</label>
+      <label><input type="radio" name="kostroma_q1" value="4">4</label>
+      <label><input type="radio" name="kostroma_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="kostroma_q2" value="1">1</label>
+      <label><input type="radio" name="kostroma_q2" value="2">2</label>
+      <label><input type="radio" name="kostroma_q2" value="3">3</label>
+      <label><input type="radio" name="kostroma_q2" value="4">4</label>
+      <label><input type="radio" name="kostroma_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="kostroma_q3" value="1">1</label>
+      <label><input type="radio" name="kostroma_q3" value="2">2</label>
+      <label><input type="radio" name="kostroma_q3" value="3">3</label>
+      <label><input type="radio" name="kostroma_q3" value="4">4</label>
+      <label><input type="radio" name="kostroma_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="kostroma_q4" value="1">1</label>
+      <label><input type="radio" name="kostroma_q4" value="2">2</label>
+      <label><input type="radio" name="kostroma_q4" value="3">3</label>
+      <label><input type="radio" name="kostroma_q4" value="4">4</label>
+      <label><input type="radio" name="kostroma_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="kostroma_q5" value="1">1</label>
+      <label><input type="radio" name="kostroma_q5" value="2">2</label>
+      <label><input type="radio" name="kostroma_q5" value="3">3</label>
+      <label><input type="radio" name="kostroma_q5" value="4">4</label>
+      <label><input type="radio" name="kostroma_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="kostroma_q6" value="1">1</label>
+      <label><input type="radio" name="kostroma_q6" value="2">2</label>
+      <label><input type="radio" name="kostroma_q6" value="3">3</label>
+      <label><input type="radio" name="kostroma_q6" value="4">4</label>
+      <label><input type="radio" name="kostroma_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="kostroma_q7"></textarea>
+  </div>
+
+  <div class="section">
+    <h2>3. Летний Выборг (июль 2024)</h2>
+    <img src="img/img3.jpg" alt="Летний Выборг">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="vyborg_q1" value="1">1</label>
+      <label><input type="radio" name="vyborg_q1" value="2">2</label>
+      <label><input type="radio" name="vyborg_q1" value="3">3</label>
+      <label><input type="radio" name="vyborg_q1" value="4">4</label>
+      <label><input type="radio" name="vyborg_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="vyborg_q2" value="1">1</label>
+      <label><input type="radio" name="vyborg_q2" value="2">2</label>
+      <label><input type="radio" name="vyborg_q2" value="3">3</label>
+      <label><input type="radio" name="vyborg_q2" value="4">4</label>
+      <label><input type="radio" name="vyborg_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="vyborg_q3" value="1">1</label>
+      <label><input type="radio" name="vyborg_q3" value="2">2</label>
+      <label><input type="radio" name="vyborg_q3" value="3">3</label>
+      <label><input type="radio" name="vyborg_q3" value="4">4</label>
+      <label><input type="radio" name="vyborg_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="vyborg_q4" value="1">1</label>
+      <label><input type="radio" name="vyborg_q4" value="2">2</label>
+      <label><input type="radio" name="vyborg_q4" value="3">3</label>
+      <label><input type="radio" name="vyborg_q4" value="4">4</label>
+      <label><input type="radio" name="vyborg_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="vyborg_q5" value="1">1</label>
+      <label><input type="radio" name="vyborg_q5" value="2">2</label>
+      <label><input type="radio" name="vyborg_q5" value="3">3</label>
+      <label><input type="radio" name="vyborg_q5" value="4">4</label>
+      <label><input type="radio" name="vyborg_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="vyborg_q6" value="1">1</label>
+      <label><input type="radio" name="vyborg_q6" value="2">2</label>
+      <label><input type="radio" name="vyborg_q6" value="3">3</label>
+      <label><input type="radio" name="vyborg_q6" value="4">4</label>
+      <label><input type="radio" name="vyborg_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="vyborg_q7"></textarea>
+  </div>
+
+  <div class="section">
+    <h2>4. Летние Ярославль и Рыбинск (июль 2024)</h2>
+    <img src="img/img4.jpg" alt="Летние Ярославль и Рыбинск">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="yaroslavl_q1" value="1">1</label>
+      <label><input type="radio" name="yaroslavl_q1" value="2">2</label>
+      <label><input type="radio" name="yaroslavl_q1" value="3">3</label>
+      <label><input type="radio" name="yaroslavl_q1" value="4">4</label>
+      <label><input type="radio" name="yaroslavl_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="yaroslavl_q2" value="1">1</label>
+      <label><input type="radio" name="yaroslavl_q2" value="2">2</label>
+      <label><input type="radio" name="yaroslavl_q2" value="3">3</label>
+      <label><input type="radio" name="yaroslavl_q2" value="4">4</label>
+      <label><input type="radio" name="yaroslavl_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="yaroslavl_q3" value="1">1</label>
+      <label><input type="radio" name="yaroslavl_q3" value="2">2</label>
+      <label><input type="radio" name="yaroslavl_q3" value="3">3</label>
+      <label><input type="radio" name="yaroslavl_q3" value="4">4</label>
+      <label><input type="radio" name="yaroslavl_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="yaroslavl_q4" value="1">1</label>
+      <label><input type="radio" name="yaroslavl_q4" value="2">2</label>
+      <label><input type="radio" name="yaroslavl_q4" value="3">3</label>
+      <label><input type="radio" name="yaroslavl_q4" value="4">4</label>
+      <label><input type="radio" name="yaroslavl_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="yaroslavl_q5" value="1">1</label>
+      <label><input type="radio" name="yaroslavl_q5" value="2">2</label>
+      <label><input type="radio" name="yaroslavl_q5" value="3">3</label>
+      <label><input type="radio" name="yaroslavl_q5" value="4">4</label>
+      <label><input type="radio" name="yaroslavl_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="yaroslavl_q6" value="1">1</label>
+      <label><input type="radio" name="yaroslavl_q6" value="2">2</label>
+      <label><input type="radio" name="yaroslavl_q6" value="3">3</label>
+      <label><input type="radio" name="yaroslavl_q6" value="4">4</label>
+      <label><input type="radio" name="yaroslavl_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="yaroslavl_q7"></textarea>
+  </div>
+
+  <div class="section">
+    <h2>5. Летняя Умба (июль 2024)</h2>
+    <img src="img/img5.jpg" alt="Летняя Умба">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="umba_q1" value="1">1</label>
+      <label><input type="radio" name="umba_q1" value="2">2</label>
+      <label><input type="radio" name="umba_q1" value="3">3</label>
+      <label><input type="radio" name="umba_q1" value="4">4</label>
+      <label><input type="radio" name="umba_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="umba_q2" value="1">1</label>
+      <label><input type="radio" name="umba_q2" value="2">2</label>
+      <label><input type="radio" name="umba_q2" value="3">3</label>
+      <label><input type="radio" name="umba_q2" value="4">4</label>
+      <label><input type="radio" name="umba_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="umba_q3" value="1">1</label>
+      <label><input type="radio" name="umba_q3" value="2">2</label>
+      <label><input type="radio" name="umba_q3" value="3">3</label>
+      <label><input type="radio" name="umba_q3" value="4">4</label>
+      <label><input type="radio" name="umba_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="umba_q4" value="1">1</label>
+      <label><input type="radio" name="umba_q4" value="2">2</label>
+      <label><input type="radio" name="umba_q4" value="3">3</label>
+      <label><input type="radio" name="umba_q4" value="4">4</label>
+      <label><input type="radio" name="umba_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="umba_q5" value="1">1</label>
+      <label><input type="radio" name="umba_q5" value="2">2</label>
+      <label><input type="radio" name="umba_q5" value="3">3</label>
+      <label><input type="radio" name="umba_q5" value="4">4</label>
+      <label><input type="radio" name="umba_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="umba_q6" value="1">1</label>
+      <label><input type="radio" name="umba_q6" value="2">2</label>
+      <label><input type="radio" name="umba_q6" value="3">3</label>
+      <label><input type="radio" name="umba_q6" value="4">4</label>
+      <label><input type="radio" name="umba_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="umba_q7"></textarea>
+  </div>
+
+  <div class="section">
+    <h2>6. Летняя Карелия (август 2024)</h2>
+    <img src="img/img6.jpg" alt="Летняя Карелия">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="karelia_q1" value="1">1</label>
+      <label><input type="radio" name="karelia_q1" value="2">2</label>
+      <label><input type="radio" name="karelia_q1" value="3">3</label>
+      <label><input type="radio" name="karelia_q1" value="4">4</label>
+      <label><input type="radio" name="karelia_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="karelia_q2" value="1">1</label>
+      <label><input type="radio" name="karelia_q2" value="2">2</label>
+      <label><input type="radio" name="karelia_q2" value="3">3</label>
+      <label><input type="radio" name="karelia_q2" value="4">4</label>
+      <label><input type="radio" name="karelia_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="karelia_q3" value="1">1</label>
+      <label><input type="radio" name="karelia_q3" value="2">2</label>
+      <label><input type="radio" name="karelia_q3" value="3">3</label>
+      <label><input type="radio" name="karelia_q3" value="4">4</label>
+      <label><input type="radio" name="karelia_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="karelia_q4" value="1">1</label>
+      <label><input type="radio" name="karelia_q4" value="2">2</label>
+      <label><input type="radio" name="karelia_q4" value="3">3</label>
+      <label><input type="radio" name="karelia_q4" value="4">4</label>
+      <label><input type="radio" name="karelia_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="karelia_q5" value="1">1</label>
+      <label><input type="radio" name="karelia_q5" value="2">2</label>
+      <label><input type="radio" name="karelia_q5" value="3">3</label>
+      <label><input type="radio" name="karelia_q5" value="4">4</label>
+      <label><input type="radio" name="karelia_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="karelia_q6" value="1">1</label>
+      <label><input type="radio" name="karelia_q6" value="2">2</label>
+      <label><input type="radio" name="karelia_q6" value="3">3</label>
+      <label><input type="radio" name="karelia_q6" value="4">4</label>
+      <label><input type="radio" name="karelia_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="karelia_q7"></textarea>
+  </div>
+
+  <div class="section">
+    <h2>7. Осенняя Турция (сентябрь 2024)</h2>
+    <img src="img/img7.jpg" alt="Осенняя Турция">
+    <p>Общее впечатление о поездке:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="turkey_q1" value="1">1</label>
+      <label><input type="radio" name="turkey_q1" value="2">2</label>
+      <label><input type="radio" name="turkey_q1" value="3">3</label>
+      <label><input type="radio" name="turkey_q1" value="4">4</label>
+      <label><input type="radio" name="turkey_q1" value="5">5</label>
+    </div>
+    <p>Впечатление о передвижении:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="turkey_q2" value="1">1</label>
+      <label><input type="radio" name="turkey_q2" value="2">2</label>
+      <label><input type="radio" name="turkey_q2" value="3">3</label>
+      <label><input type="radio" name="turkey_q2" value="4">4</label>
+      <label><input type="radio" name="turkey_q2" value="5">5</label>
+    </div>
+    <p>Насколько разнообразны были дни:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="turkey_q3" value="1">1</label>
+      <label><input type="radio" name="turkey_q3" value="2">2</label>
+      <label><input type="radio" name="turkey_q3" value="3">3</label>
+      <label><input type="radio" name="turkey_q3" value="4">4</label>
+      <label><input type="radio" name="turkey_q3" value="5">5</label>
+    </div>
+    <p>Желание повторить поездку:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="turkey_q4" value="1">1</label>
+      <label><input type="radio" name="turkey_q4" value="2">2</label>
+      <label><input type="radio" name="turkey_q4" value="3">3</label>
+      <label><input type="radio" name="turkey_q4" value="4">4</label>
+      <label><input type="radio" name="turkey_q4" value="5">5</label>
+    </div>
+    <p>Организация поездки:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="turkey_q5" value="1">1</label>
+      <label><input type="radio" name="turkey_q5" value="2">2</label>
+      <label><input type="radio" name="turkey_q5" value="3">3</label>
+      <label><input type="radio" name="turkey_q5" value="4">4</label>
+      <label><input type="radio" name="turkey_q5" value="5">5</label>
+    </div>
+    <p>Насколько поездка оправдала твои ожидания:</p>
+    <div class="rating-group">
+      <label><input type="radio" name="turkey_q6" value="1">1</label>
+      <label><input type="radio" name="turkey_q6" value="2">2</label>
+      <label><input type="radio" name="turkey_q6" value="3">3</label>
+      <label><input type="radio" name="turkey_q6" value="4">4</label>
+      <label><input type="radio" name="turkey_q6" value="5">5</label>
+    </div>
+    <p>Если есть другие мысли, напиши ниже:</p>
+    <textarea name="turkey_q7"></textarea>
+  </div>
+
+  <button type="button" onclick="saveResponses()">Сохранить ответы</button>
+</form>
+
+<script>
+  function saveResponses() {
+    const form = document.getElementById('surveyForm');
+    const formData = new FormData(form);
+    let responses = "Наши поездки в 2024\n\n";
+
+    formData.forEach((value, key) => {
+      responses += `${key}: ${value}\n`;
+    });
+
+    const blob = new Blob([responses], { type: 'text/plain' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+
+    const date = new Date().toISOString().split('T')[0];
+    link.download = `survey_responses_${date}.txt`;
+
+    link.click();
+  }
+</script>
+</body>
+</html>
